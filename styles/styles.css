@@ -73,6 +73,9 @@
 }
 .flowers-items div h4{
     margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
 }
 .flowers-items div h4 a{
     color: rgb(39, 39, 39);
