@@ -27,7 +27,7 @@
     line-height: 24px;
     color: rgba(39, 39, 39, 0.6);
 }
-.header-btn{
+.btn{
     padding: 10px 35px;
     font-weight: 500;
     border: none;
@@ -85,6 +85,48 @@
     height:300px;
     margin-bottom: -5px;
  }
+ .options{
+    margin: 80px;
+ }
+ .options-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+ }
+ .option-item p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+    margin-top: 10px;
+ }
+ .sale{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 80px;
+    padding-bottom: 20px;
+ }
+ .discount{
+    margin: 100px;
+    text-align: center;
+ }
+ .discount h1{
+    font-size: 24px;
+    font-weight: 700;
+ }
+.discount h1 span{
+    color: rgb(229, 84, 115);
+}
+.discount p{
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(39, 39, 39, 0.6);
+}
 
 
 
@@ -100,7 +142,7 @@
         margin-bottom: 10px;
     }
     .header-title{
-        font-size: 14px;
+        font-size: 24px;
         width: auto;
     }
     .header-img img{
@@ -115,5 +157,26 @@
     }
     .flowers-content p{
        margin: 10px;
+    }
+    .options{
+        margin: 0;
+        margin-top: 50px;
+    }
+    .options-box{
+        flex-direction: column;
+    }
+    .sale{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .sale-img{
+        margin-top: 20px;
+    }
+    .sale-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .discount{
+        margin: 0;
     }
 }
