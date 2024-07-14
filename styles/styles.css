@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main section{
+    margin-top: 40px;
+}
 .font{
     font-family: "Poppins", sans-serif;
 }
@@ -126,6 +129,9 @@
     font-size: 13px;
     line-height: 22px;
     color: rgba(39, 39, 39, 0.6);
+}
+.latest-deals{
+  background-image: url("Rectangle 9.png");
 }
 
 
